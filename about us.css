@@ -1,0 +1,65 @@
+
+
+.img {
+width: 100px;
+border-radius: 50px;
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: darkblue;
+    font-size: 18px;
+}
+
+.card {
+    width: 400px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    float: left;
+    background-color: skyblue;
+    margin-left: 10px;
+    margin-top: 150px;
+}
+
+.card img {
+    width: 100px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+span {
+    margin-left: 500px;
+    /* padding-top: 100px; */
+    font-size: larger;
+}
+
+.rep {
+    width: 538px;
+    margin-left: 50px;
+}
+.one {
+    width: 300px;
+    border-radius: 50%;
+    margin-left: 100px; 
+  }
+  
+
+
+
+
+
+
+
+
+
+
