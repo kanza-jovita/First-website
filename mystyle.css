@@ -2,6 +2,7 @@ body {
      background-size: cover;
      margin: 0px;
      padding: 0px;
+     /* background-color: peachpuff; */
 
      
 }  
@@ -20,6 +21,7 @@ a {
      margin-right: 20px;
      text-decoration: none;text-align: right;
      color: darkblue;
+     font-family: sans-serif;
 }
 
 

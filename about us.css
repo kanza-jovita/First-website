@@ -1,19 +1,64 @@
 
-
-.img {
-width: 100px;
-border-radius: 50px;
-
+.image-item {
+    width: 300px;
+    height: auto;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
+    background-color: azure;
+    text-align: center;
+}
+
+
+/* .slider-wrapper .image-list {
+display: grid;
+gap: 18px;
+font-size: 0;
+overflow-x:auto ;
+scrollbar-width: none;
+grid-template-columns: repeat(10, 1fr);
+}
+
+.slider-wrapper .image-list .image-item {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+} */
+
+
+
+/* .container {
+    max-width: 1200px;
+    width: 95%;
+}
+
+.slider-wrapper .image-list::-webkit-scrollbar {
+    display: none;
+} */
+
+
+
+/* .img {
+width: 100px;
+border-radius: 50px;
+} */
+
+
+nav {
+    text-align: center;
+    background-color: lightskyblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    height: 66px;
 }
 a {
     text-decoration: none;
     margin-left: 20px;
     color: darkblue;
     font-size: 18px;
+    font-family: sans-serif;
 }
 
 .card {
@@ -24,7 +69,8 @@ a {
     float: left;
     background-color: skyblue;
     margin-left: 10px;
-    margin-top: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .card img {
@@ -37,11 +83,13 @@ a {
     padding: 20px;
 }
 
-span {
-    margin-left: 500px;
-    /* padding-top: 100px; */
+/* span {
+    margin-left: 50px;
+    padding-top: 100px;
     font-size: larger;
-}
+    text-align: center;
+    justify-content: center;
+} */
 
 .rep {
     width: 538px;
@@ -53,6 +101,9 @@ span {
     margin-left: 100px; 
   }
   
+  /* p {
+    text-align: center;
+  } */
 
 
 

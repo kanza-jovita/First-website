@@ -15,20 +15,36 @@
     border-radius: 8px;
     padding: 20px;
     width: 700px;
-    text-align: justify;
-    background-color: blanchedalmond;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: skyblue;
+    font-family: sans-serif;
 }
 a {
     margin-right: 30px;
     text-decoration: none;
     color: darkblue;
     font-size: 18px;
+    font-family: sans-serif;
 }
-label {
+
+nav {
+    text-align: center;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    height: 66px;
+}
+/* label {
     display: block;
-}
+} */
  
 input {
     display: flex;
+}
+
+.team {
+    font-family: sans-serif;
+    margin-right: 50px;
+    background-color: azure;
 }
