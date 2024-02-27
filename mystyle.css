@@ -2,9 +2,7 @@ body {
      background-size: cover;
      margin: 0px;
      padding: 0px;
-     /* background-color: peachpuff; */
-
-     
+     background-image: url('/Images/rocks.webp');   
 }  
 
 nav {

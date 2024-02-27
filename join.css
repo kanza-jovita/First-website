@@ -35,9 +35,7 @@ nav {
     font-size: 18px;
     height: 66px;
 }
-/* label {
-    display: block;
-} */
+
  
 input {
     display: flex;
@@ -46,5 +44,22 @@ input {
 .team {
     font-family: sans-serif;
     margin-right: 50px;
-    background-color: azure;
+   background-color: whitesmoke;
+}
+
+body {
+    background-image: url('/Images/hand.jpg');
+}
+
+.team {
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+    align-items: center;
+    margin-top: 10px;
+}
+
+h1,p{
+    text-align: center;
 }
