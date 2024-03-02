@@ -1,65 +1,67 @@
-.pot {
-    background-color: #bd0f0f;
-    border: none;
-    height: 25px;
-    width: 60px;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: opacity 0.15s;
-    margin-top: 10px;
-    color: aliceblue;
-}
-.deluxe {
-    margin-left: 200px;
-    box-shadow: 2px 8px 8px;
-    border-radius: 8px;
-    padding: 20px;
-    width: 700px;
-    text-align: center;
-    background-color: skyblue;
-    font-family: sans-serif;
-}
+
 a {
     margin-right: 30px;
     text-decoration: none;
-    color: darkblue;
+    color: black;
     font-size: 18px;
     font-family: sans-serif;
 }
 
 nav {
     text-align: center;
-    background-color: black;
+    background-color: skyblue;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 18px;
     height: 66px;
 }
 
- 
-input {
-    display: flex;
-}
 
-.team {
+
+* {
     font-family: sans-serif;
-    margin-right: 50px;
-   background-color: whitesmoke;
+    font-weight: bolder;
 }
 
-body {
-    background-image: url('/Images/hand.jpg');
-}
-
-.team {
-    border-radius: 10px;
+.form {
     padding: 10px;
-    margin-left: 200px;
-    margin-right: 200px;
-    align-items: center;
+    background-color: skyblue;
+    margin: 100px;
+    width: 50%;
+    /* margin-top: 20px; */
+    text-align: center;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 8px 5px 8px px rgba(0, 0, 0, 0.5);
+}
+
+.form-card {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    border-color: black;
+    border-radius: 4px;
+}
+
+
+footer {
+background-color: skyblue;
+    text-align: center;
+    /* font-weight: bolder; */
     margin-top: 10px;
 }
 
-h1,p{
-    text-align: center;
+.submit {
+    background-color: #bd0f0f;
+    border: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-top: 10px;
+    color: aliceblue;
 }

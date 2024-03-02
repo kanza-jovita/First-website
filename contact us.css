@@ -11,6 +11,7 @@ a {
   nav {
     background: skyblue;
     padding: 20px;
+    height: 66px;
   }
   h1 {
     text-align: center;
@@ -20,23 +21,33 @@ a {
     text-align: center
   }
   body {
-    /* background-color: pink; */
+    background-color: antiquewhite;
     font-size: 20px;
     text-align: center;
-    background-image: url('/Images/tech.jpg');
+    /* background-image: url('/Images/tech.jpg'); */
     background-size: cover;
     background-position: center;
     height: 100%;
     background-repeat: no-repeat;
    }
+/* .form {
+  border-radius: 10px;
+  width: 200px;
+  margin-left: 200px;
+} */
+
    .button {
-    background-color: #bd0f0f;
+    background-color: rgb(160, 46, 46);
     border: none;
-    height: 25px;
-    width: 60px;
-    border-radius: 2px;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
     cursor: pointer;
     transition: opacity 0.15s;
     margin-top: 10px;
     color: aliceblue;
+}
+
+.bottom {
+  margin-top: 40px;
 }
